@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--This is where all my future web development projects can be displayed!-->
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The defualt button looks wonky in the mobile devices-->
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200&family=Roboto+Mono:ital,wght@0,200;0,400;0,700;1,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+    </head>
+<body>
+    <!--Header including the logo and main navigation-->
+    <header class="page-header">
+            <img src="./img/ariauna-logo.svg" alt="My personal logo." class="page-header__item" >
+            <h1> My Work </h1>
+            <!-- this is a default link
+            <a href="#"> Default Link</a>
+            -->
+        <nav class="main-navigation page-header__item" > 
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main Content-->
+    <section>
+        <h1>Work</h1>
+        <div class="grid">
+            <!--Grid items will go here also i want to change "grid" to
+            "project-list" before turning it in-->
+            <div class="grid__item">
+                    <h2>Mobile Web App</h2>
+                    <p>
+                        Within this project, I will be responsible for 
+                        the frontend. It is going to be written in 
+                        React.js. Adittionally i will create the HTML and
+                        CSS templates
+                    </p>
+                    <a href="#"> See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2> Native MacOS Application</h2>
+                <p>
+                    I will be responsible for frontend. It will be written in
+                    JavaFX.
+                </p>
+                <a href="#"> See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2>Node.js pdf generation</h2>
+                <p>
+                    Within this project i will create a service that generates
+                    pdf out of webpages with the help of a node.js.server
+                </p>
+                <a href="#"> See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2>Styleguide for Portfolio page</h2>
+                <p>
+                    Here you can find the style guide i have created
+                    for this portfolio. 
+                </p>
+                <a href="#"> See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2> Medium Blog</h2>
+                <p>
+                    Theoretically I am also writing about 
+                    react.js
+                </p>
+                <a href="#"> Read my last post</a>
+            </div>
+            <div class="grid__item">
+                <h2>Your Project?</h2>
+                <p>
+                    I can help realizing front-end and back-end projects
+                    with the following technology: React.js, Javascript,
+                    Java, JavaFX, HTML, CSS. I am also happy to learn other
+                    technologies if needed.
+                </p>
+                <a href="#">Contact me!</a>
+            </div>
+        </div>
+    </section>
+    <!--Footer with social media links-->
+    <footer class="page-footer">
+        <p> Find me on </p>
+        <div class="social-media">
+            <a href=https://github.com/ariaunabarrus> <img src="./img/github.svg" alt="Github"></a>
+             <a href=https://twitter.com/BarrusAriauna>  <img src="./img/twitter-5 (1).svg" alt="Twitter"></a>
+             <a href= https://www.linkedin.com/in/ariauna-barrus-971642259/ > <img src="./img/linked.svg" alt="LinkedIn"> </a>
+        </div>     
+             <button type="button">Default Button</button>
+            <!--Adding a CSS class to your elementallows you to style it seperatly from its parent element 
+            Just refer to it in the CSS by its class name
+            <button class="button__secondary">Secondary Button</button>-->
+     </footer>
+</body>
+</html>
